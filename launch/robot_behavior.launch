@@ -1,0 +1,5 @@
+<launch>
+    <node name="ultrasonic_sensor" pkg="robot_behavior" type="ultrasonic_sensor.py" output="screen" />
+    <node name="yolo_detector" pkg="robot_behavior" type="yolo_detector.py" output="screen" />
+    <node name="robot_behavior" pkg="robot_behavior" type="robot_behavior.py" output="screen" />
+</launch>
